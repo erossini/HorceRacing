@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Copyright>(c) 2019 Panayiotis Vassiliou</Copyright>
+    <AssemblyVersion>2019.06.11.0</AssemblyVersion>
+    <FileVersion>2019.06.11.0</FileVersion>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+</Project>
