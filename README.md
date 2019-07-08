@@ -3,9 +3,9 @@
 This solution is a console application that simulates and displays the result of a horserace.
 It consists of three projects:
 
-* [Amdocs.HorseRacing.Domain](https://github.com/erossini/HorseRacing/tree/master/HorseRacing.Domain) 
-* [Amdocs.HorseRacing.Domain.Tests](https://github.com/erossini/HorseRacing/tree/master/HorseRacing.Tests)
-* [Amdocs.HorseRacing.Console](https://github.com/erossini/HorseRacing/tree/master/HorseRacing.Console)
+* [HorseRacing.Domain](https://github.com/erossini/HorseRacing/tree/master/HorseRacing.Domain) 
+* [HorseRacing.Domain.Tests](https://github.com/erossini/HorseRacing/tree/master/HorseRacing.Tests)
+* [HorseRacing.Console](https://github.com/erossini/HorseRacing/tree/master/HorseRacing.Console)
 
 All projects is written in C# and target the .Net Core framework. A reasonable amount of effort has been put so that this solution demonstrates:
 * Dependency Injection (using Autofac)
@@ -14,7 +14,7 @@ All projects is written in C# and target the .Net Core framework. A reasonable a
 * Test Driven Design
 * Domain Driven Design
 
-# Amdocs.HorseRacing.Domain
+# HorseRacing.Domain
 This project implements the object model of the domain that incorporates both behavior and data.
 The following classes implemented:
 * [Horse](https://github.com/erossini/HorseRacing/blob/master/HorseRacing.Domain/Entities/Horse.cs)
@@ -27,11 +27,11 @@ The following classes implemented:
   HorseRace consists of a list of runners as well as state information and the winner calculation.
 
 
-# Amdocs.HorseRacing.Domain.Tests
+# HorseRacing.Domain.Tests
   This project consists of all the tests. xUnit framework has been used as well as FluentAssertions. the test named        [Check_that_winner_frequency_is_as_expected()](https://github.com/erossini/HorseRacing/blob/master/HorseRacing.Tests/HorseRaceSpecs.cs) verifies that for a given race, over the course of 1,000,000 iterations of calculating the winner, the results are within 2% either way for each runner.
 
 
-# Amdocs.HorseRacing.Console
+# HorseRacing.Console
 
 This project is a console application that holds the user interface for the simulator.
 The user interface consists of the following areas
